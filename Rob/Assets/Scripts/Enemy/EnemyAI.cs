@@ -1,12 +1,14 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.UI;
 
 public class EnemyAI : MonoBehaviour
 {
     public List<Transform> PatrolPoints;
     private NavMeshAgent _navMeshAgent;
     public PlayerController Player;
+    public Image EyeIcon;
     private bool _isPlayerNoticed;
     public float ViewAngle;
 
@@ -20,6 +22,7 @@ public class EnemyAI : MonoBehaviour
     {
         if (!_isPlayerNoticed)
         {
+            EyeIcon.fillAmount -= 0.3f * Time.deltaTime;
             if (_navMeshAgent.remainingDistance <= _navMeshAgent.stoppingDistance)
             {
                 PickNewPatrolPoint();
@@ -28,7 +31,11 @@ public class EnemyAI : MonoBehaviour
         NoticePlayerUpdate();
         if (_isPlayerNoticed)
         {
-            _navMeshAgent.destination = Player.transform.position;
+            EyeIcon.fillAmount += 0.3f * Time.deltaTime;
+            if (EyeIcon.fillAmount == 1)
+            {
+                _navMeshAgent.destination = Player.transform.position;
+            }
         }
 
     }
