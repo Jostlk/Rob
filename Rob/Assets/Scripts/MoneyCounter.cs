@@ -10,6 +10,7 @@ public class MoneyCounter : MonoBehaviour
     public int MoneyAmount = 10000;
     public Image Button;
     public TextMeshProUGUI UICounter;
+    public CanvasManager canvasManager;
     public GameObject Cash;
     private void Update()
     {
@@ -19,6 +20,8 @@ public class MoneyCounter : MonoBehaviour
             if (Button.fillAmount == 1)
             {
                 MoneyAmount += Convert.ToInt32(UICounter.text);
+                canvasManager.Timer = 0;
+                UICounter.gameObject.SetActive(true);
                 UICounter.text = MoneyAmount.ToString();
                 Destroy(Cash);
             }

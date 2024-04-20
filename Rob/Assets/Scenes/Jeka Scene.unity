@@ -319,6 +319,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -373,7 +378,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -504,6 +509,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -558,7 +568,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -659,6 +669,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -713,7 +728,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -808,6 +823,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -862,7 +882,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -957,6 +977,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1011,7 +1036,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -1224,6 +1249,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1278,7 +1308,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -1379,6 +1409,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1433,7 +1468,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -1528,6 +1563,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1582,7 +1622,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -1677,6 +1717,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1731,7 +1776,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -1858,6 +1903,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_IsActive
@@ -1908,6 +1958,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 8282295451353052555, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: MoneyCounter
+      value: 
+      objectReference: {fileID: 540798114}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 839093668f95a974cb2b47e8d221acb4, type: 3}
 --- !u!1001 &410106841
@@ -1997,6 +2052,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -2051,7 +2111,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -2146,6 +2206,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -2200,7 +2265,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -2301,6 +2366,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -2355,7 +2425,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -2450,6 +2520,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -2504,7 +2579,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -2517,6 +2592,12 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5284118613533147032, guid: 839093668f95a974cb2b47e8d221acb4,
     type: 3}
   m_PrefabInstance: {fileID: 162674656}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &540798114 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7116388019188486914, guid: be1acbee108b70b4198538461d632291,
+    type: 3}
+  m_PrefabInstance: {fileID: 789257617}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &544497199 stripped
 GameObject:
@@ -2611,6 +2692,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -2665,7 +2751,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -2760,6 +2846,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -2814,7 +2905,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -2921,6 +3012,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -2975,7 +3071,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -3076,6 +3172,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3130,7 +3231,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -3237,6 +3338,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3291,7 +3397,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -3398,6 +3504,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3452,7 +3563,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -3553,6 +3664,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3607,7 +3723,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -3702,6 +3818,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3756,7 +3877,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -3771,56 +3892,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 239996737639087081, guid: be1acbee108b70b4198538461d632291,
-        type: 3}
-      propertyPath: m_CullTransparentMesh
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 705971505150720860, guid: be1acbee108b70b4198538461d632291,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -260.22
-      objectReference: {fileID: 0}
-    - target: {fileID: 1149936178311473893, guid: be1acbee108b70b4198538461d632291,
-        type: 3}
-      propertyPath: m_text
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1149936178311473893, guid: be1acbee108b70b4198538461d632291,
-        type: 3}
-      propertyPath: m_fontStyle
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1149936178311473893, guid: be1acbee108b70b4198538461d632291,
-        type: 3}
-      propertyPath: m_fontColor.b
-      value: 0.07475969
-      objectReference: {fileID: 0}
-    - target: {fileID: 1149936178311473893, guid: be1acbee108b70b4198538461d632291,
-        type: 3}
-      propertyPath: m_fontColor.g
-      value: 0.7924528
-      objectReference: {fileID: 0}
-    - target: {fileID: 1149936178311473893, guid: be1acbee108b70b4198538461d632291,
-        type: 3}
-      propertyPath: m_fontColor.r
-      value: 0.10950146
-      objectReference: {fileID: 0}
-    - target: {fileID: 1149936178311473893, guid: be1acbee108b70b4198538461d632291,
-        type: 3}
-      propertyPath: m_fontColor32.rgba
-      value: 4279487004
-      objectReference: {fileID: 0}
-    - target: {fileID: 1149936178311473893, guid: be1acbee108b70b4198538461d632291,
-        type: 3}
-      propertyPath: m_VerticalAlignment
-      value: 512
-      objectReference: {fileID: 0}
-    - target: {fileID: 1149936178311473893, guid: be1acbee108b70b4198538461d632291,
-        type: 3}
-      propertyPath: m_HorizontalAlignment
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 1730291732138197041, guid: be1acbee108b70b4198538461d632291,
         type: 3}
       propertyPath: _Flashlight
@@ -3845,6 +3916,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Money Counter
+      objectReference: {fileID: 0}
+    - target: {fileID: 7116388019188486914, guid: be1acbee108b70b4198538461d632291,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7810520932814906755, guid: be1acbee108b70b4198538461d632291,
         type: 3}
@@ -4144,6 +4220,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -4198,7 +4279,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -4299,6 +4380,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -4353,7 +4439,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -4448,6 +4534,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -4502,7 +4593,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -4681,6 +4772,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -4735,7 +4831,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -4830,6 +4926,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -4884,7 +4985,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -5042,6 +5143,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -5096,7 +5202,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -5191,6 +5297,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -5245,7 +5356,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -5352,6 +5463,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -5406,7 +5522,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -5501,6 +5617,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -5555,7 +5676,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -5662,6 +5783,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -5716,7 +5842,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -5742,7 +5868,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 789257617}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 540798114}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
@@ -5847,6 +5973,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -5901,7 +6032,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -6002,6 +6133,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -6056,7 +6192,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -6151,6 +6287,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -6205,7 +6346,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -6300,6 +6441,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -6354,7 +6500,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -6439,6 +6585,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -6489,6 +6640,11 @@ PrefabInstance:
       propertyPath: Canvas
       value: 
       objectReference: {fileID: 1371249209}
+    - target: {fileID: 8282295451353052555, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: MoneyCounter
+      value: 
+      objectReference: {fileID: 540798114}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 839093668f95a974cb2b47e8d221acb4, type: 3}
 --- !u!1 &1442037302
@@ -6614,6 +6770,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -6668,7 +6829,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -6781,6 +6942,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -6835,7 +7001,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -6848,12 +7014,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5284118613533147032, guid: 839093668f95a974cb2b47e8d221acb4,
     type: 3}
   m_PrefabInstance: {fileID: 779582201}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1570229257 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5284118613533147032, guid: 839093668f95a974cb2b47e8d221acb4,
-    type: 3}
-  m_PrefabInstance: {fileID: 2038405608}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1619385560
 PrefabInstance:
@@ -6942,6 +7102,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -6996,7 +7161,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -7097,6 +7262,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -7151,7 +7321,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -7252,6 +7422,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -7306,7 +7481,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -7413,6 +7588,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -7467,7 +7647,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -7475,6 +7655,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 839093668f95a974cb2b47e8d221acb4, type: 3}
+--- !u!114 &1818725631 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5416345886955584766, guid: be1acbee108b70b4198538461d632291,
+    type: 3}
+  m_PrefabInstance: {fileID: 789257617}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a70f15c65269ec4db5bc20c946cc07c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1832803591 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5284118613533147032, guid: 839093668f95a974cb2b47e8d221acb4,
@@ -7568,6 +7760,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -7622,7 +7819,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -7717,6 +7914,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -7771,7 +7973,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -7866,6 +8068,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -7920,7 +8127,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -8015,6 +8222,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -8069,7 +8281,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -8164,6 +8376,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -8218,7 +8435,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -8325,6 +8542,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -8379,7 +8601,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -8566,6 +8788,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -8620,7 +8847,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -8745,6 +8972,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -8799,7 +9031,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -8894,6 +9126,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -8948,7 +9185,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -9043,6 +9280,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -9097,7 +9339,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -9192,6 +9434,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -9246,7 +9493,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -9341,6 +9588,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -9388,14 +9640,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8282295451353052555, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
-      propertyPath: Canvas
-      value: 
-      objectReference: {fileID: 1570229257}
-    - target: {fileID: 8282295451353052555, guid: 839093668f95a974cb2b47e8d221acb4,
-        type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -9496,6 +9743,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -9550,7 +9802,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -9645,6 +9897,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -9699,7 +9956,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -9794,6 +10051,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -9848,7 +10110,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a
@@ -9943,6 +10205,11 @@ PrefabInstance:
       propertyPath: UICounter
       value: 
       objectReference: {fileID: 1330321739}
+    - target: {fileID: 2669844714955107686, guid: 839093668f95a974cb2b47e8d221acb4,
+        type: 3}
+      propertyPath: canvasManager
+      value: 
+      objectReference: {fileID: 1818725631}
     - target: {fileID: 3785573721695380922, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -9997,7 +10264,7 @@ PrefabInstance:
         type: 3}
       propertyPath: MoneyCounter
       value: 
-      objectReference: {fileID: 1330321739}
+      objectReference: {fileID: 540798114}
     - target: {fileID: 9063723374920347183, guid: 839093668f95a974cb2b47e8d221acb4,
         type: 3}
       propertyPath: m_Color.a

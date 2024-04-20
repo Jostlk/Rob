@@ -14,6 +14,10 @@ public class TakeMoney : MonoBehaviour
     }
     private void OnTriggerExit(Collider other)
     {
-        Canvas.SetActive(false);
+        if (other.name == "Capsule")
+        {
+            Canvas.SetActive(false);
+        }
+
     }
 }
