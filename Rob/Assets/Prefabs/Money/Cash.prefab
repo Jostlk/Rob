@@ -51,6 +51,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Canvas: {fileID: 5284118613533147032}
+  Button: {fileID: 1722468036172481192}
 --- !u!65 &6165872427391022026
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -264,6 +265,7 @@ MonoBehaviour:
   MoneyAmount: 10000
   Button: {fileID: 1722468036172481192}
   UICounter: {fileID: 0}
+  canvasManager: {fileID: 0}
   Cash: {fileID: 98404238880495812}
 --- !u!1 &7035509579739423589
 GameObject:
