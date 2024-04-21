@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Jeka Scene.unity
     guid: a72faec254d69a64586d85258fdac4d8
+  - enabled: 1
+    path: Assets/Scenes/Rob Game.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}

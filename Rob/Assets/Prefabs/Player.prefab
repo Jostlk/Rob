@@ -58,7 +58,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -542,7 +542,7 @@ GameObject:
   - component: {fileID: 9096873606368298423}
   - component: {fileID: 5386992704489330420}
   m_Layer: 0
-  m_Name: Spot Light
+  m_Name: Flashlight Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -737,6 +737,7 @@ GameObject:
   - component: {fileID: 8459907048570771519}
   - component: {fileID: 8459907048570771518}
   - component: {fileID: 1730291732138197041}
+  - component: {fileID: 1615052097054249067}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -785,7 +786,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 202eccf8081a5224e8efb0128d5e4a94, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -865,7 +866,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b967078cf6d79d49803f9793154ceed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _Flashlight: {fileID: 0}
+  _Flashlight: {fileID: 5386992704489330420}
+--- !u!114 &1615052097054249067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8459907048570771512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7494aae0ccb51a041b39c4fce6fbedf3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eyeIcon: {fileID: 4492236861568263143}
+  detectionRate: 0.3
+  detectionLevel: 0
 --- !u!1 &8459907048774125125
 GameObject:
   m_ObjectHideFlags: 0
