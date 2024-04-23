@@ -400,7 +400,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   masterKey: {fileID: 144570194134139866}
+  masterKeyUpperLayer: {fileID: 0}
   Door: {fileID: 144570193867923358}
+  KeyInInventory: 0
 --- !u!1 &144570194760808002
 GameObject:
   m_ObjectHideFlags: 0

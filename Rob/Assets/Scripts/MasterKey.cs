@@ -6,31 +6,44 @@ using UnityEngine.UI;
 public class MasterKey : MonoBehaviour
 {
     public Image masterKey;
+    public Material masterKeyMaterial;
+    public Image masterKeyUpperLayer;
     public Transform Door;
+    public bool KeyInInventory = false;
     private void OnTriggerStay(Collider other)
     {
         if (other.name == "Capsule")
         {
-            if(Input.GetKey(KeyCode.E))
+            if (KeyInInventory == true)
             {
-                masterKey.fillAmount += 0.1f * Time.deltaTime;
-                if (masterKey.fillAmount == 1)
+                if (Input.GetKey(KeyCode.E))
                 {
-                    Door.Rotate(new Vector3(0,90,0));
-                    Destroy(gameObject);
+                    masterKeyUpperLayer.fillAmount += 0.1f * Time.deltaTime;
+                    if (masterKeyUpperLayer.fillAmount == 1)
+                    {
+                        Door.Rotate(new Vector3(0, 90, 0));
+                        Destroy(gameObject);
+                    }
+                }
+                else
+                {
+                    masterKeyUpperLayer.fillAmount = 0;
                 }
             }
             else
             {
-                masterKey.fillAmount = 0;
+                masterKey.color = Color.red;
             }
+
         }
     }
     private void OnTriggerExit(Collider other)
     {
         if (other.name == "Capsule")
         {
-            masterKey.fillAmount = 0;
+            masterKey.color = Color.white;
+            masterKey.material = masterKeyMaterial;
+            masterKeyUpperLayer.fillAmount = 0;
         }
     }
 }

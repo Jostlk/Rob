@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class TakeMoney : MonoBehaviour
+public class OnCanvas : MonoBehaviour
 {
     public GameObject Canvas;
     public Image Button;
