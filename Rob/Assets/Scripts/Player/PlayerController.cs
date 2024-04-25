@@ -1,12 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class PlayerController : MonoBehaviour
 {
     public float moveSpeed = 5.0f; // Скорость движения персонажа
     public float jumpForce;
     public float gravity = 9.8f;
+    public UnityEvent OnTabPress;
+    public UnityEvent OnTabRelease;
 
     private CharacterController controller;
 
@@ -57,6 +60,16 @@ public class PlayerController : MonoBehaviour
         else
         {
             moveSpeed = 5f;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Tab))
+        {
+            OnTabPress.Invoke();
+        }
+
+        if (Input.GetKeyUp(KeyCode.Tab))
+        {
+            OnTabRelease.Invoke();
         }
     }
     void FixedUpdate()
