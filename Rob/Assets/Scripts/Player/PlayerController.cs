@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed = 5.0f; // Скорость движения персонажа
     public float jumpForce;
     public float gravity = 9.8f;
+    public float EnemysViewAngle;
     public UnityEvent OnTabPress;
     public UnityEvent OnTabRelease;
 
@@ -44,10 +45,12 @@ public class PlayerController : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.LeftControl))
         {
+            EnemysViewAngle = 40;
             controller.height = 1f;
         }
         else
         {
+            EnemysViewAngle = 70;
             controller.height = 2f;
         }
         if (Input.GetKey(KeyCode.LeftShift))

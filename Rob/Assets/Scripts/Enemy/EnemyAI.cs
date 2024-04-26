@@ -5,9 +5,11 @@ using UnityEngine.UI;
 
 public class EnemyAI : MonoBehaviour
 {
-    public List<Transform> PatrolPoints;
     public PlayerController Player;
-    public float ViewAngle;
+    public List<Transform> PatrolPoints;
+    public Animator animator;
+    public float TimeNewPoint = 3;
+    private float ViewAngle;
     private NavMeshAgent _navMeshAgent;
     private bool _isPlayerNoticed;
     private DetectionSystem _detectionSystem;
@@ -21,6 +23,7 @@ public class EnemyAI : MonoBehaviour
 
     void Update()
     {
+        ViewAngle = Player.EnemysViewAngle;
         NoticePlayerUpdate();
         if (!_isPlayerNoticed)
         {
@@ -28,7 +31,11 @@ public class EnemyAI : MonoBehaviour
 
             if (_navMeshAgent.remainingDistance <= _navMeshAgent.stoppingDistance)
             {
-                PickNewPatrolPoint();
+                animator.SetBool("NewPoint", true);
+                if (!IsInvoking())
+                {
+                    Invoke("PickNewPatrolPoint", TimeNewPoint);
+                }
             }
         }
 
@@ -62,6 +69,7 @@ public class EnemyAI : MonoBehaviour
 
     private void PickNewPatrolPoint()
     {
+        animator.SetBool("NewPoint", false);
         _navMeshAgent.destination = PatrolPoints[Random.Range(0, PatrolPoints.Count)].position;
     }
 
