@@ -122,6 +122,7 @@ GameObject:
   - component: {fileID: 4855807792761634}
   - component: {fileID: 33494950970554548}
   - component: {fileID: 23877673192996868}
+  - component: {fileID: 5435020813061018182}
   m_Layer: 0
   m_Name: mesh_props_camerta_A_01
   m_TagString: Untagged
@@ -190,3 +191,21 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &5435020813061018182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1957102499173150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 819bcf462b3861041b406105a299d6d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 0}
+  MinRotation: -70
+  MaxRotation: 70
+  Speed: 5
+  ViewAngle: 30
+  _isPlayerNoticed: 0
