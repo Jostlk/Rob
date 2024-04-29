@@ -93,8 +93,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.83814585, y: 0.11651558, z: 0.82446814}
-  m_Center: {x: 0.007626593, y: 0.03179562, z: -0.01602292}
+  m_Size: {x: 0.8010359, y: 0.11651558, z: 0.82446814}
+  m_Center: {x: -0.2748465, y: 0.03179562, z: -0.016022926}
 --- !u!114 &3220707662675583704
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -381,6 +381,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MoneyAmount: 1000
+  Timer: 0.8
   Button: {fileID: 6929178814350610250}
   UICounter: {fileID: 0}
   canvasManager: {fileID: 0}

@@ -263,6 +263,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MoneyAmount: 10000
+  Timer: 0
   Button: {fileID: 1722468036172481192}
   UICounter: {fileID: 0}
   canvasManager: {fileID: 0}

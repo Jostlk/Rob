@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4672472112775454}
   - component: {fileID: 33045457606830448}
   - component: {fileID: 23515103763969964}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PREF_props_trashcan_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
