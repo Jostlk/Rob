@@ -12,7 +12,9 @@ public class EnemyAI : MonoBehaviour
     private float ViewAngle;
     private NavMeshAgent _navMeshAgent;
     private bool _isPlayerNoticed;
+    private bool Flag = false;
     private DetectionSystem _detectionSystem;
+    public FillAmount _fillAmount;
 
     void Start()
     {
@@ -27,8 +29,6 @@ public class EnemyAI : MonoBehaviour
         NoticePlayerUpdate();
         if (!_isPlayerNoticed)
         {
-            _detectionSystem.WhileNotNoticed();
-
             if (_navMeshAgent.remainingDistance <= _navMeshAgent.stoppingDistance)
             {
                 animator.SetBool("NewPoint", true);
@@ -41,7 +41,6 @@ public class EnemyAI : MonoBehaviour
 
         if (_isPlayerNoticed)
         {
-            _detectionSystem.WhileNoticed();
             if (_detectionSystem.detectionLevel == 1)
             {
                 _navMeshAgent.destination = Player.transform.position;
@@ -53,16 +52,48 @@ public class EnemyAI : MonoBehaviour
     private void NoticePlayerUpdate()
     {
         RaycastHit hit;
-        _isPlayerNoticed = false;
         var direction = Player.transform.position - transform.position;
         if (Vector3.Angle(transform.forward, direction) < ViewAngle)
         {
             if (Physics.Raycast(transform.position + Vector3.up, direction, out hit))
             {
+
                 if (hit.collider.gameObject == Player.gameObject)
                 {
-                    _isPlayerNoticed = true;
+                    if (Flag == false)
+                    {
+                        _fillAmount._playerNoticedCount++;
+                        _isPlayerNoticed = true;
+                        Flag = true;
+                    }
                 }
+                else
+                {
+                    if (Flag == true)
+                    {
+                        _fillAmount._playerNoticedCount--;
+                        _isPlayerNoticed = false;
+                        Flag = false;
+                    }
+                }
+            }
+            else
+            {
+                if (Flag == true)
+                {
+                    _fillAmount._playerNoticedCount--;
+                    _isPlayerNoticed = false;
+                    Flag = false;
+                }
+            }
+        }
+        else
+        {
+            if (Flag == true)
+            {
+                _fillAmount._playerNoticedCount--;
+                _isPlayerNoticed = false;
+                Flag = false;
             }
         }
     }

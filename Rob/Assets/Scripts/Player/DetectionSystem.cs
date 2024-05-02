@@ -13,21 +13,17 @@ public class DetectionSystem : MonoBehaviour
     [HideInInspector]
     public float detectionLevel;
 
-    //Этот метод вызывается из EnemyAI.cs когда _isNoticed = true
     public void WhileNoticed()
     {
         eyeIcon.fillAmount += detectionRate * Time.deltaTime;
     }
-
-    //То же самое но когда _isNoticed = false
     public void WhileNotNoticed()
     {
         eyeIcon.fillAmount -= detectionRate * Time.deltaTime;
     }
- 
+
     void Update()
     {
-        detectionLevel = eyeIcon.fillAmount;
         //Уровень обнаружения (detectionLevel) идет от 0 до 1, где 0 - полностью скрыт, 1 - обнаружен
         if (detectionLevel >= 1)
         {
