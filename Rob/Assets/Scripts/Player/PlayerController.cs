@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     public float jumpForce;
     public float gravity = 9.8f;
     public float EnemysViewAngle;
+    public float CameraViewAngle;
     public UnityEvent OnTabPress;
     public UnityEvent OnTabRelease;
 
@@ -46,23 +47,27 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKey(KeyCode.LeftControl))
         {
             EnemysViewAngle = 40;
+            CameraViewAngle = 20;
             controller.height = 1f;
+            moveSpeed = 2f;
         }
-        else
+        else if (Input.GetKeyUp(KeyCode.LeftControl))
         {
             EnemysViewAngle = 70;
+            CameraViewAngle = 30;
             controller.height = 2f;
+            moveSpeed = 3f;
         }
         if (Input.GetKey(KeyCode.LeftShift))
         {
             if (controller.height == 2)
             {
-                moveSpeed = 10f;
+                moveSpeed = 6f;
             }
         }
-        else
+        else if(Input.GetKeyUp(KeyCode.LeftShift))
         {
-            moveSpeed = 5f;
+            moveSpeed = 3f;
         }
 
         if (Input.GetKeyDown(KeyCode.Tab))

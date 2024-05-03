@@ -57,7 +57,6 @@ public class EnemyAI : MonoBehaviour
         {
             if (Physics.Raycast(transform.position + Vector3.up, direction, out hit))
             {
-
                 if (hit.collider.gameObject == Player.gameObject)
                 {
                     if (Flag == false)

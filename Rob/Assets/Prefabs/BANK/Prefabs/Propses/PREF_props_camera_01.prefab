@@ -204,8 +204,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 0}
+  _detectionSystem: {fileID: 0}
+  _fillAmount: {fileID: 0}
   MinRotation: -70
   MaxRotation: 70
-  Speed: 5
+  Speed: 7
   ViewAngle: 30
   _isPlayerNoticed: 0
+  Flag: 0

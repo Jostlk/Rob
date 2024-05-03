@@ -24,6 +24,7 @@ public class CameraDetection : MonoBehaviour
     }
     void Update()
     {
+        ViewAngle = Player.CameraViewAngle;
         DetectionPlayer();
         if ((int)transform.localEulerAngles.y == MaxRotation)
         {

@@ -13,6 +13,7 @@ public class MoneyCounter : MonoBehaviour
     public TextMeshProUGUI UICounter;
     public TextMeshProUGUI TabUICounter;
     public CanvasManager canvasManager;
+    public InterfaceManager interfaceManager;
     public GameObject Cash;
     private void Update()
     {
@@ -32,6 +33,10 @@ public class MoneyCounter : MonoBehaviour
         else if (Input.GetKeyUp(KeyCode.E))
         {
             Button.fillAmount = 0;
+        }
+        if(Convert.ToInt32(UICounter.text) == 216000)
+        {
+            interfaceManager.Win();
         }
     }
 }

@@ -12,6 +12,7 @@ public class DetectionSystem : MonoBehaviour
 
     [HideInInspector]
     public float detectionLevel;
+    public InterfaceManager interfaceManager;
 
     public void WhileNoticed()
     {
@@ -24,10 +25,12 @@ public class DetectionSystem : MonoBehaviour
 
     void Update()
     {
+        detectionLevel = eyeIcon.fillAmount;
         //Уровень обнаружения (detectionLevel) идет от 0 до 1, где 0 - полностью скрыт, 1 - обнаружен
         if (detectionLevel >= 1)
         {
             detectedSign.gameObject.SetActive(true);
+            interfaceManager.GameOver();
         }
         else
         {
