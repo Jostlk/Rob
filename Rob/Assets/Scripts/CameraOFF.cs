@@ -9,6 +9,7 @@ public class CameraOFF : MonoBehaviour
     public Material CameraMaterial;
     public Image CameraUpperLayer;
     public List<CameraDetection> CameraSystems;
+    public TriggerUI triggerUI;
     private void OnTriggerStay(Collider other)
     {
         if (other.name == "Capsule")
@@ -18,6 +19,7 @@ public class CameraOFF : MonoBehaviour
                 CameraUpperLayer.fillAmount += 0.1f * Time.deltaTime;
                 if (CameraUpperLayer.fillAmount == 1)
                 {
+                    triggerUI.TriggerOffCamera();
                     for (int i = 0; i < CameraSystems.Count; i++)
                     {
                         CameraSystems[i].enabled = false;
