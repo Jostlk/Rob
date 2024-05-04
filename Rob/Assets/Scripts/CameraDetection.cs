@@ -47,10 +47,8 @@ public class CameraDetection : MonoBehaviour
             {
                 if (hit.collider.gameObject == Player.gameObject)
                 {
-                    Debug.DrawRay(transform.position,direction, Color.green);
                     if (Flag == false)
                     {
-                        Debug.Log("Ray");
                         _fillAmount._playerNoticedCount++;
                         Flag = true;
                     }

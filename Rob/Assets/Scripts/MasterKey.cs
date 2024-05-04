@@ -9,6 +9,8 @@ public class MasterKey : MonoBehaviour
     public Material masterKeyMaterial;
     public Image masterKeyUpperLayer;
     public Transform Door;
+    public float Range;
+    public float Rotate;
     public bool KeyInInventory = false;
     private void OnTriggerStay(Collider other)
     {
@@ -18,10 +20,10 @@ public class MasterKey : MonoBehaviour
             {
                 if (Input.GetKey(KeyCode.E))
                 {
-                    masterKeyUpperLayer.fillAmount += 0.1f * Time.deltaTime;
+                    masterKeyUpperLayer.fillAmount += Range * Time.deltaTime;
                     if (masterKeyUpperLayer.fillAmount == 1)
                     {
-                        Door.Rotate(new Vector3(0, 90, 0));
+                        Door.Rotate(new Vector3(0, Rotate, 0));
                         Destroy(gameObject);
                     }
                 }

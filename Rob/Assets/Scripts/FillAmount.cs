@@ -10,12 +10,10 @@ public class FillAmount : MonoBehaviour
     {
         if (_playerNoticedCount > 0)
         {
-            Debug.Log("FillAmount");
             _detectionSystem.WhileNoticed();
         }
         if (_playerNoticedCount == 0)
         {
-            Debug.Log("FillAmount222");
             _detectionSystem.WhileNotNoticed();
         }
     }

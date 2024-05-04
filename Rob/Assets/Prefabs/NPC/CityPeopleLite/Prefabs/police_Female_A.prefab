@@ -320,6 +320,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7435849554256403824}
   - component: {fileID: 8686923959210793804}
+  - component: {fileID: 6895180835488672400}
   m_Layer: 0
   m_Name: police_Female_A
   m_TagString: Untagged
@@ -421,6 +422,20 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.04744789, y: -0.0062184334, z: 0.0000006854534}
     m_Extent: {x: 0.9060341, y: 0.22126162, z: 0.7852975}
   m_DirtyAABB: 0
+--- !u!136 &6895180835488672400
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1954166746969178691}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.14369293
+  m_Height: 1.6596044
+  m_Direction: 2
+  m_Center: {x: 0.005844116, y: 0.017460003, z: 0.84157276}
 --- !u!1 &1987153843261712852
 GameObject:
   m_ObjectHideFlags: 0
@@ -925,14 +940,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a40a705f1cc73242a60f072feba1668, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Player: {fileID: 0}
   PatrolPoints:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  Player: {fileID: 0}
-  ViewAngle: 70
-  TimeNewPoint: 3
   animator: {fileID: -1460763525116878347}
+  TimeNewPoint: 3
+  _fillAmount: {fileID: 0}
 --- !u!95 &-1460763525116878347
 Animator:
   serializedVersion: 3
