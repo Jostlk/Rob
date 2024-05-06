@@ -9,9 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: f3cfeef73e394e04c8f2c70af36c1bc0
   - enabled: 1
-    path: Assets/Scenes/Jeka Scene.unity
-    guid: a72faec254d69a64586d85258fdac4d8
-  - enabled: 1
     path: Assets/Scenes/Rob Game.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    guid: f303b20aad5e2bb409df11a76e8cfbb0
   m_configObjects: {}
