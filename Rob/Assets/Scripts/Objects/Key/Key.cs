@@ -19,6 +19,10 @@ public class Key : MonoBehaviour
                 if (Button.fillAmount == 1)
                 {
                     openKeyDoor.keyCount++;
+                    if(KeyGameobject.name != "key_gold")
+                    {
+                        MoneyCounter.WinBalance += 144000;
+                    }
                     Destroy(KeyGameobject);
                 }
             }

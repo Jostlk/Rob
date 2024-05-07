@@ -8,6 +8,7 @@ using UnityEngine.UI;
 public class MoneyCounter : MonoBehaviour
 {
     public int MoneyAmount = 10000;
+    static public int WinBalance = 216000;
     public float Timer;
     public Image Button;
     public TextMeshProUGUI UICounter;
@@ -34,7 +35,7 @@ public class MoneyCounter : MonoBehaviour
         {
             Button.fillAmount -= 2.5f * Time.deltaTime;
         }
-        if(Convert.ToInt32(UICounter.text) == 216000)
+        if(Convert.ToInt32(UICounter.text) == WinBalance)
         {
             interfaceManager.Win();
         }
