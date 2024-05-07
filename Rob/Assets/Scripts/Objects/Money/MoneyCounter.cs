@@ -30,9 +30,9 @@ public class MoneyCounter : MonoBehaviour
                 Destroy(Cash);
             }
         }
-        else if (Input.GetKeyUp(KeyCode.E))
+        else
         {
-            Button.fillAmount = 0;
+            Button.fillAmount -= 2.5f * Time.deltaTime;
         }
         if(Convert.ToInt32(UICounter.text) == 216000)
         {

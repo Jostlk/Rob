@@ -29,7 +29,7 @@ public class MasterKey : MonoBehaviour
                 }
                 else
                 {
-                    masterKeyUpperLayer.fillAmount = 0;
+                    masterKeyUpperLayer.fillAmount -= 2f * Time.deltaTime;
                 }
             }
             else
