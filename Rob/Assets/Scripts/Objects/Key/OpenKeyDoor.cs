@@ -11,6 +11,8 @@ public class OpenKeyDoor : MonoBehaviour
     public float Timer;
     public Image Button;
     public Transform Door;
+    public AudioSource MetalDoorOpen;
+    public AudioSource OpenLock;
     private void OnTriggerStay(Collider other)
     {
         if (other.name == "Capsule")
@@ -18,10 +20,16 @@ public class OpenKeyDoor : MonoBehaviour
             if (Input.GetKey(KeyCode.E))
             {
                 Button.fillAmount += Timer * Time.deltaTime;
+                if (!OpenLock.isPlaying)
+                {
+                    OpenLock.Play();
+                }
                 if (Button.fillAmount == 1)
                 {
+                    OpenLock.Stop();
                     if (keyCount > 0)
                     {
+                        MetalDoorOpen.Play();
                         keyCount--;
                         Door.Rotate(new Vector3(0, Rotate, 0));
                         Destroy(gameObject);

@@ -67,7 +67,7 @@ public class PlayerController : MonoBehaviour
                 moveSpeed = 6f;
             }
         }
-        else if(Input.GetKeyUp(KeyCode.LeftShift))
+        else if (Input.GetKeyUp(KeyCode.LeftShift))
         {
             moveSpeed = 3f;
         }

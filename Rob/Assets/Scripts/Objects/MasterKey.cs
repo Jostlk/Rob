@@ -9,6 +9,8 @@ public class MasterKey : MonoBehaviour
     public Material masterKeyMaterial;
     public Image masterKeyUpperLayer;
     public Transform Door;
+    public AudioSource LockSound;
+    public AudioSource OpenDoorSound;
     public float Range;
     public float Rotate;
     public bool KeyInInventory = false;
@@ -21,8 +23,13 @@ public class MasterKey : MonoBehaviour
                 if (Input.GetKey(KeyCode.E))
                 {
                     masterKeyUpperLayer.fillAmount += Range * Time.deltaTime;
+                    if (!LockSound.isPlaying)
+                    {
+                        LockSound.Play();
+                    }
                     if (masterKeyUpperLayer.fillAmount == 1)
                     {
+                        OpenDoorSound.Play();
                         Door.Rotate(new Vector3(0, Rotate, 0));
                         Destroy(gameObject);
                     }
@@ -30,6 +37,7 @@ public class MasterKey : MonoBehaviour
                 else
                 {
                     masterKeyUpperLayer.fillAmount -= 2f * Time.deltaTime;
+                    LockSound.Stop();
                 }
             }
             else
@@ -43,6 +51,7 @@ public class MasterKey : MonoBehaviour
     {
         if (other.name == "Capsule")
         {
+            LockSound.Stop();
             masterKey.color = Color.white;
             masterKey.material = masterKeyMaterial;
             masterKeyUpperLayer.fillAmount = 0;
