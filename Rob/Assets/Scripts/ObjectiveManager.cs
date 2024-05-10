@@ -15,6 +15,9 @@ public struct Objective
 {
     public string task;
     public string description;
+    public float Font1;
+    public float Font2;
+    public float Font3;
     public UnityEvent OnCompletion;
     //После выполнения каждого этапа ивент OnCompletion сможет вызвать различные методы, например это можно использовать для спавна новых охранников, открывать проходы и т.д.
 }
@@ -24,6 +27,7 @@ public class ObjectiveManager : MonoBehaviour
     public TextMeshProUGUI objectiveText;
     public TextMeshProUGUI dockedObjectiveText;
     public TextMeshProUGUI descText;
+
     public Objective[] objectives;
 
     private int _currentObjIndex;
@@ -34,8 +38,11 @@ public class ObjectiveManager : MonoBehaviour
         _currentObjIndex = index;
 
         objectiveText.text = objectives[index].task;
+        objectiveText.fontSize = objectives[index].Font1;
         dockedObjectiveText.text = objectives[index].task;
+        dockedObjectiveText.fontSize = objectives[index].Font2;
         descText.text = objectives[index].description;
+        descText.fontSize = objectives[index].Font3;
     }
 
     void Start()

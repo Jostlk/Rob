@@ -10,6 +10,7 @@ public class Key : MonoBehaviour
     public GameObject KeyGameobject;
     public MeshRenderer KeyMeshRenderer;
     public OpenKeyDoor openKeyDoor;
+    public ObjectiveManager objectiveManager;
     public AudioSource KeySound;
     private void OnTriggerStay(Collider other)
     {
@@ -25,6 +26,10 @@ public class Key : MonoBehaviour
                     if (KeyGameobject.name != "key_gold")
                     {
                         MoneyCounter.WinBalance += 144000;
+                    }
+                    else
+                    {
+                        objectiveManager.SwitchObjectiveTo(3);
                     }
                     Destroy(gameObject);
                     KeyMeshRenderer.enabled = false;

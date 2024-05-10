@@ -10,7 +10,9 @@ public class CameraOFF : MonoBehaviour
     public Image CameraUpperLayer;
     public AudioSource KeyboardSource;
     public List<CameraDetection> CameraSystems;
-    public TriggerUI triggerUI;
+    public ObjectiveManager objectiveManager;
+    public GameObject TriggerOffCamerаs;
+    public GameObject TriggerRobSafe;
     private void OnTriggerStay(Collider other)
     {
         if (other.name == "Capsule")
@@ -24,7 +26,16 @@ public class CameraOFF : MonoBehaviour
                 }
                 if (CameraUpperLayer.fillAmount == 1)
                 {
-                    triggerUI.TriggerOffCamera();
+                    if (TriggerOffCamerаs != null)
+                    {
+                        Destroy(TriggerOffCamerаs);
+                        TriggerRobSafe.SetActive(true);
+                    }
+                    else
+                    {
+                        Destroy(TriggerRobSafe);
+                        objectiveManager.SwitchObjectiveTo(2);
+                    }
                     for (int i = 0; i < CameraSystems.Count; i++)
                     {
                         CameraSystems[i].enabled = false;
