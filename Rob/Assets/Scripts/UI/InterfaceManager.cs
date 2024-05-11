@@ -12,6 +12,12 @@ public class InterfaceManager : MonoBehaviour
     public GameObject TabPanel;
     public GameObject GameOverScreen;
     public TextMeshProUGUI Text;
+    public PlayerController playerController;
+    public CameraController cameraController;
+    public DetectionSystem detectionSystem;
+    public List<EnemyAI> enemies;
+    public AudioSource MaxAnxious;
+    public AudioSource BackgroundSound;
     public void QuitGame()
     {
         Debug.Log("Quitting game...");
@@ -24,20 +30,31 @@ public class InterfaceManager : MonoBehaviour
     }
     public void GameOver()
     {
-        Eye.SetActive(false);
-        ObjectiveIndicator.SetActive(false);
-        MoneyCounter.SetActive(false);
-        TabPanel.SetActive(false);
+        OffMovement();
         GameOverScreen.SetActive(true);
         Text.text = "GAME OVER";
     }
     public void Win()
     {
+        OffMovement();
+        GameOverScreen.SetActive(true);
+        Text.text = "YOU WON!";
+    }
+    public void OffMovement()
+    {
         Eye.SetActive(false);
         ObjectiveIndicator.SetActive(false);
         MoneyCounter.SetActive(false);
         TabPanel.SetActive(false);
-        GameOverScreen.SetActive(true);
-        Text.text = "YOU WON!";
+        playerController.enabled = false;
+        cameraController.enabled = false;
+        detectionSystem.enabled = false;
+        for (int i = 0; i < enemies.Count; i++)
+        {
+            enemies[i].enabled = false;
+            enemies[i].GetComponent<Animator>().enabled = false;
+        }
+        MaxAnxious.enabled = false;
+        BackgroundSound.enabled = false;
     }
 }
