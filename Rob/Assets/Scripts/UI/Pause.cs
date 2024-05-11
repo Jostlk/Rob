@@ -16,6 +16,7 @@ public class Pause : MonoBehaviour
     public void PauseGame()
     {
         pauseMenu.SetActive(true);
+        AudioListener.volume = 0;
         Time.timeScale = 0;
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
@@ -24,6 +25,7 @@ public class Pause : MonoBehaviour
     public void UnpauseGame()
     {
         pauseMenu.SetActive(false);
+        AudioListener.volume = 1;
         Time.timeScale = 1;
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
