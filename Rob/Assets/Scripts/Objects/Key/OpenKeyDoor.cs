@@ -43,6 +43,7 @@ public class OpenKeyDoor : MonoBehaviour
             else
             {
                 Button.fillAmount -= 2 * Time.deltaTime;
+                OpenLock.Stop();
             }
         }
     }

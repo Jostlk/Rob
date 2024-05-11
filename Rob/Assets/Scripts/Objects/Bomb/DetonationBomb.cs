@@ -4,15 +4,27 @@ using UnityEngine;
 
 public class DetonationBomb : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    static public int BombActive = 0;
+    public GameObject Explosion;
+    public List<Transform> ExplosionsSpawn;
+    public List<GameObject> DestroingGameObject;
+    private void Update()
     {
-        
+        if (BombActive == 4)
+        {
+            Invoke("DetonateBoms",5);
+        }
     }
-
-    // Update is called once per frame
-    void Update()
+    public void DetonateBoms()
     {
-        
+        for (int i = 0; i < ExplosionsSpawn.Count; i++)
+        {
+            Instantiate(Explosion, ExplosionsSpawn[i].transform.position,Random.rotation);
+        }
+        for (int i = 0;i < DestroingGameObject.Count; i++)
+        {
+            Destroy(DestroingGameObject[i]);
+        }
+        Destroy(gameObject);
     }
 }

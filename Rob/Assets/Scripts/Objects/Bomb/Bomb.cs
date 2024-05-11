@@ -19,6 +19,7 @@ public class Bomb : MonoBehaviour
                 {
                     Destroy(BombClear);
                     BombObject.SetActive(true);
+                    DetonationBomb.BombActive++;
                     Destroy(gameObject);
                 }
             }
