@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -25,7 +26,9 @@ public class Key : MonoBehaviour
                     openKeyDoor.keyCount++;
                     if (KeyGameobject.name != "key_gold")
                     {
-                        MoneyCounter.WinBalance += 144000;
+                        int balance = Convert.ToInt32(CanvasManager.WinBalance);
+                        balance += 144000;
+                        CanvasManager.WinBalance = balance.ToString();
                     }
                     else
                     {
