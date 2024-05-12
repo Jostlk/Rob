@@ -6,20 +6,24 @@ public class DetonationBomb : MonoBehaviour
 {
     static public int BombActive = 0;
     public GameObject Explosion;
+    public AudioSource ExplosionSound;
+    public AudioSource SirenSound;
+    public GameObject BeepListen;
     public List<Transform> ExplosionsSpawn;
     public List<GameObject> DestroingGameObject;
     private void Update()
     {
-
         if (BombActive == 4)
         {
-            Invoke("DetonateBombs", 5);
+            BeepListen.SetActive(true);
+            Invoke("DetonateBombs", 13);
         }
     }
 
     public void DetonateBombs()
     {
-
+        ExplosionSound.Play();
+        SirenSound.Play();
         for (int i = 0; i < ExplosionsSpawn.Count; i++)
         {
             Instantiate(Explosion, ExplosionsSpawn[i].transform.position, Random.rotation);
