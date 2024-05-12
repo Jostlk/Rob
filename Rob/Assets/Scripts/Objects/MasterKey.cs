@@ -8,7 +8,8 @@ public class MasterKey : MonoBehaviour
     public Image masterKey;
     public Material masterKeyMaterial;
     public Image masterKeyUpperLayer;
-    public Transform Door;
+    //public Transform Door;
+    public Door door;
     public AudioSource LockSound;
     public AudioSource OpenDoorSound;
     public float Range;
@@ -30,8 +31,9 @@ public class MasterKey : MonoBehaviour
                     if (masterKeyUpperLayer.fillAmount == 1)
                     {
                         OpenDoorSound.Play();
-                        Door.Rotate(new Vector3(0, Rotate, 0));
+                        //Door.Rotate(new Vector3(0, Rotate, 0));
                         Destroy(gameObject);
+                        door.Interact();
                     }
                 }
                 else
