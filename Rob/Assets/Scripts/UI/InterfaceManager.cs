@@ -12,6 +12,7 @@ public class InterfaceManager : MonoBehaviour
     public GameObject TabPanel;
     public GameObject GameOverScreen;
     public TextMeshProUGUI Text;
+    public TextMeshProUGUI RestartText;
     public PlayerController playerController;
     public CameraController cameraController;
     public DetectionSystem detectionSystem;
@@ -39,6 +40,8 @@ public class InterfaceManager : MonoBehaviour
         OffMovement();
         GameOverScreen.SetActive(true);
         Text.text = "YOU WON!";
+        RestartText.text = "Press ESC to main menu";
+        Invoke("FinalStop", 4);
     }
     public void OffMovement()
     {
@@ -56,5 +59,10 @@ public class InterfaceManager : MonoBehaviour
         }
         MaxAnxious.enabled = false;
         BackgroundSound.enabled = false;
+    }
+    public void FinalStop()
+    {
+        Time.timeScale = 0;
+        AudioListener.volume = 0;
     }
 }
