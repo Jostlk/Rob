@@ -29,5 +29,9 @@ public class EventActivator : MonoBehaviour
         {
             EventActivate();
         }
-    }   
+    }
+    public void DestroyGameobject(GameObject Object)
+    {
+        Destroy(Object);
+    }
 }
