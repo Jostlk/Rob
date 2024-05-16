@@ -30,11 +30,10 @@ public class MasterKey : MonoBehaviour
                     }
                     if (masterKeyUpperLayer.fillAmount == 1)
                     {
-                        door.Interact();
                         OpenDoorSound.Play();
                         //Door.Rotate(new Vector3(0, Rotate, 0));
                         Destroy(gameObject);
-                        
+                        door.Interact();
                     }
                 }
                 else
