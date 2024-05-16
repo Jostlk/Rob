@@ -37,7 +37,7 @@ public class InterfaceManager : MonoBehaviour
     }
     public void Win()
     {
-        OffMovement();
+        OffMovementFinal();
         GameOverScreen.SetActive(true);
         Text.text = "YOU WON!";
         RestartText.text = "Press ESC to main menu";
@@ -52,13 +52,21 @@ public class InterfaceManager : MonoBehaviour
         playerController.enabled = false;
         cameraController.enabled = false;
         detectionSystem.enabled = false;
+        MaxAnxious.enabled = false;
+        BackgroundSound.enabled = false;
         for (int i = 0; i < enemies.Count; i++)
         {
             enemies[i].enabled = false;
             enemies[i].GetComponent<Animator>().enabled = false;
         }
-        MaxAnxious.enabled = false;
-        BackgroundSound.enabled = false;
+    }
+    public void OffMovementFinal()
+    {
+        ObjectiveIndicator.SetActive(false);
+        MoneyCounter.SetActive(false);
+        TabPanel.SetActive(false);
+        playerController.enabled = false;
+        cameraController.enabled = false;
     }
     public void FinalStop()
     {
