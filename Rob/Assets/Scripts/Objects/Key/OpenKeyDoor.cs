@@ -9,6 +9,7 @@ public class OpenKeyDoor : MonoBehaviour
     public int keyCount = 0;
     public float Rotate;
     public float Timer;
+    public Door door;
     public Image Button;
     public Transform Door;
     public AudioSource MetalDoorOpen;
@@ -29,9 +30,11 @@ public class OpenKeyDoor : MonoBehaviour
                     OpenLock.Stop();
                     if (keyCount > 0)
                     {
+                        
                         MetalDoorOpen.Play();
                         keyCount--;
-                        Door.Rotate(new Vector3(0, Rotate, 0));
+                        door.Interact();
+                        //Door.Rotate(new Vector3(0, Rotate, 0));
                         Destroy(gameObject);
                     }
                     else
