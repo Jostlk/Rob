@@ -761,8 +761,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a70f15c65269ec4db5bc20c946cc07c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoneyCounter: {fileID: 7116388019188486914}
+  MoneyCounterObject: {fileID: 7116388019188486914}
+  Bombs: {fileID: 0}
   Timer: 0
+  Balance: {fileID: 1149936178311473893}
 --- !u!114 &1203003573860908468
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -781,6 +783,17 @@ MonoBehaviour:
   TabPanel: {fileID: 1308185642696301948}
   GameOverScreen: {fileID: 6212626499041737482}
   Text: {fileID: 6059889440222004481}
+  RestartText: {fileID: 6807075584578868691}
+  playerController: {fileID: 8459907048570771518}
+  cameraController: {fileID: 8459907048480703439}
+  detectionSystem: {fileID: 1615052097054249067}
+  enemies:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  MaxAnxious: {fileID: 0}
+  BackgroundSound: {fileID: 0}
 --- !u!1 &2113475306717138579
 GameObject:
   m_ObjectHideFlags: 0
@@ -2362,6 +2375,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcddb7c256d72644186d63dd789e4a1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Text: {fileID: 6059889440222004481}
 --- !u!95 &438031186191416902
 Animator:
   serializedVersion: 3
@@ -3054,7 +3068,16 @@ MonoBehaviour:
   objectiveText: {fileID: 244007068756522720}
   dockedObjectiveText: {fileID: 8072931182683381723}
   descText: {fileID: 5698858656213731777}
-  objectives: []
+  objectives:
+  - task: "\u041D\u0430\u0439\u0442\u0438 \u0445\u0440\u0430\u043D\u0438\u043B\u0438\u0449\u0435"
+    description: "\u041D\u0430\u0439\u0434\u0438\u0442\u0435 \u0432\u0445\u043E\u0434
+      \u0432 \u0445\u0440\u0430\u043D\u0438\u043B\u0438\u0449\u0435 \u0431\u0430\u043D\u043A\u0430"
+    Font1: 38
+    Font2: 40
+    Font3: 40
+    OnCompletion:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &7116388019188486914
 GameObject:
   m_ObjectHideFlags: 0
