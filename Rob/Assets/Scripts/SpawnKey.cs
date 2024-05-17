@@ -6,13 +6,9 @@ using UnityEngine;
 public class SpawnKey : MonoBehaviour
 {
     public List<GameObject> Keys;
-    public TextMeshProUGUI ObjectiveText;
-    private void Update()
+    public void SpawnKeys()
     {
-        if(ObjectiveText.text == "Найти ключ")
-        {
-            Keys[Random.Range(0,Keys.Count)].SetActive(true);
-            Destroy(gameObject);
-        }
+        Keys[Random.Range(0, Keys.Count)].SetActive(true);
+        Destroy(gameObject);
     }
 }

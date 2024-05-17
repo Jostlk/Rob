@@ -13,6 +13,7 @@ public class CameraOFF : MonoBehaviour
     public ObjectiveManager objectiveManager;
     public GameObject TriggerOffCamerаs;
     public GameObject TriggerRobSafe;
+    public SpawnKey spawnKey;
     private void OnTriggerStay(Collider other)
     {
         if (other.name == "Capsule")
@@ -35,6 +36,7 @@ public class CameraOFF : MonoBehaviour
                     {
                         Destroy(TriggerRobSafe);
                         objectiveManager.SwitchObjectiveTo(2);
+                        spawnKey.SpawnKeys();
                     }
                     for (int i = 0; i < CameraSystems.Count; i++)
                     {

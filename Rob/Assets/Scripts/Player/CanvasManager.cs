@@ -11,6 +11,7 @@ public class CanvasManager : MonoBehaviour
     public GameObject Bombs;
     public float Timer = 0;
     public TextMeshProUGUI Balance;
+    public ObjectiveManager objectiveManager;
     private bool IsDestroing = false;
     void Update()
     {
@@ -26,6 +27,7 @@ public class CanvasManager : MonoBehaviour
         if (Balance.text == WinBalance && IsDestroing == false)
         {
             Bombs.SetActive(true);
+            objectiveManager.SwitchObjectiveTo(6);
             IsDestroing = true;
         }
     }

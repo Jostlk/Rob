@@ -11,6 +11,7 @@ public class OpenKeyDoor : MonoBehaviour
     public float Timer;
     public Image Button;
     public Transform Door;
+    public ObjectiveManager objectiveManager;
     public AudioSource MetalDoorOpen;
     public AudioSource OpenLock;
     private void OnTriggerStay(Collider other)
@@ -32,6 +33,7 @@ public class OpenKeyDoor : MonoBehaviour
                         MetalDoorOpen.Play();
                         keyCount--;
                         Door.Rotate(new Vector3(0, Rotate, 0));
+                        objectiveManager.SwitchObjectiveTo(4);
                         Destroy(gameObject);
                     }
                     else

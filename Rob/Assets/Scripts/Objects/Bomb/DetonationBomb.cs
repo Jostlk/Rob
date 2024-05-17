@@ -7,6 +7,7 @@ public class DetonationBomb : MonoBehaviour
     static public int BombActive = 0;
     public GameObject Explosion;
     public GameObject METRO;
+    public ObjectiveManager objectiveManager;
     public AudioSource ExplosionSound;
     public AudioSource SirenSound;
     public GameObject BeepListen;
@@ -24,6 +25,7 @@ public class DetonationBomb : MonoBehaviour
     public void DetonateBombs()
     {
         METRO.SetActive(true);
+        objectiveManager.SwitchObjectiveTo(7);
         ExplosionSound.Play();
         SirenSound.Play();
         for (int i = 0; i < ExplosionsSpawn.Count; i++)
