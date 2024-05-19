@@ -62,7 +62,7 @@ public class PlayerController : MonoBehaviour
         {
             if (controller.height == 2)
             {
-                moveSpeed = 6f;
+                moveSpeed = 5.3f;
             }
         }
         else if (Input.GetKeyUp(KeyCode.LeftShift))

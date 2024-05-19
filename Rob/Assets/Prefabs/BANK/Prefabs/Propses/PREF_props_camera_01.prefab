@@ -208,7 +208,7 @@ MonoBehaviour:
   _fillAmount: {fileID: 0}
   MinRotation: -70
   MaxRotation: 70
-  Speed: 7
+  Speed: 12
   ViewAngle: 30
   _isPlayerNoticed: 0
   Flag: 0
