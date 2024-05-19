@@ -406,13 +406,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MoneyAmount: 7000
-  Timer: 0.4
+  Timer: 0.6
   Button: {fileID: 7053232899612089518}
   UICounter: {fileID: 0}
   TabUICounter: {fileID: 0}
   canvasManager: {fileID: 0}
   MoneySound: {fileID: 1232209615002558407}
-  interfaceManager: {fileID: 0}
   Cash: {fileID: 1184467597068882}
 --- !u!1 &7684957838779791734
 GameObject:
