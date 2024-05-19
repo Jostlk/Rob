@@ -10,7 +10,8 @@ public class OpenKeyDoor : MonoBehaviour
     public float Rotate;
     public float Timer;
     public Image Button;
-    public Transform Door;
+    //public Transform Door;
+    public Door door;
     public ObjectiveManager objectiveManager;
     public AudioSource MetalDoorOpen;
     public AudioSource OpenLock;
@@ -32,7 +33,8 @@ public class OpenKeyDoor : MonoBehaviour
                     {
                         MetalDoorOpen.Play();
                         keyCount--;
-                        Door.Rotate(new Vector3(0, Rotate, 0));
+                        door.Interact();
+                        //Door.Rotate(new Vector3(0, Rotate, 0));
                         objectiveManager.SwitchObjectiveTo(4);
                         Destroy(gameObject);
                     }
