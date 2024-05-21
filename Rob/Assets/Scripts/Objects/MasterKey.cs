@@ -1,20 +1,30 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class MasterKey : MonoBehaviour
 {
+    static public bool TipsOn = false;
+    static public bool DestroyPressE = false;
     public Image masterKey;
     public Material masterKeyMaterial;
     public Image masterKeyUpperLayer;
-    //public Transform Door;
+    public GameObject PressE;
     public Door door;
     public AudioSource LockSound;
     public AudioSource OpenDoorSound;
     public float Range;
     public float Rotate;
     public bool KeyInInventory = false;
+    private void OnTriggerEnter(Collider other)
+    {
+        if (TipsOn == false && DestroyPressE == false)
+        {
+            PressE.SetActive(true);
+        }
+    }
     private void OnTriggerStay(Collider other)
     {
         if (other.name == "Capsule")
@@ -30,8 +40,9 @@ public class MasterKey : MonoBehaviour
                     }
                     if (masterKeyUpperLayer.fillAmount == 1)
                     {
+                        DestroyPressE = true;
+                        Destroy(PressE);
                         OpenDoorSound.Play();
-                        //Door.Rotate(new Vector3(0, Rotate, 0));
                         Destroy(gameObject);
                         door.Interact();
                     }
@@ -53,6 +64,10 @@ public class MasterKey : MonoBehaviour
     {
         if (other.name == "Capsule")
         {
+            if (DestroyPressE == false)
+            {
+                PressE.SetActive(false);
+            }
             LockSound.Stop();
             masterKey.color = Color.white;
             masterKey.material = masterKeyMaterial;
