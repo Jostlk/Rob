@@ -14,6 +14,7 @@ public class CameraOFF : MonoBehaviour
     public GameObject TriggerOffCamerаs;
     public GameObject TriggerRobSafe;
     public SpawnKey spawnKey;
+    public DetectionSystem detectionSystem;
     private void OnTriggerStay(Collider other)
     {
         if (other.name == "Capsule")
@@ -42,6 +43,8 @@ public class CameraOFF : MonoBehaviour
                     {
                         CameraSystems[i].enabled = false;
                     }
+                    detectionSystem.GetComponent <FillAmount>()._playerNoticedCount = 0;
+                    detectionSystem.detectionRate = 0.6f;
                     Destroy(gameObject);
                 }
             }

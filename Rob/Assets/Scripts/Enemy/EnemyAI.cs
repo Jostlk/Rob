@@ -48,17 +48,26 @@ public class EnemyAI : MonoBehaviour
         }
 
     }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.name == "Capsule")
+        {
+            _fillAmount._playerNoticedCount++;
+            _detectionSystem.detectionRate = 2f;
+        }
+    }
 
     private void NoticePlayerUpdate()
     {
         RaycastHit hit;
-        var direction = Player.transform.position - transform.position;
+        var direction = Player.transform.position - Vector3.up - transform.position;
         if (Vector3.Angle(transform.forward, direction) < ViewAngle)
         {
-            if (Physics.Raycast(transform.position + Vector3.up, direction, out hit))
+            if (Physics.Raycast(transform.position + Vector3.up * 1.5f, direction, out hit))
             {
-                if (hit.collider.gameObject == Player.gameObject)
+                if (hit.collider.name == "Capsule")
                 {
+                    Debug.DrawRay(transform.position + Vector3.up * 1.5f, direction);
                     if (Flag == false)
                     {
                         _fillAmount._playerNoticedCount++;

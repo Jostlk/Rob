@@ -10,7 +10,6 @@ public class OpenKeyDoor : MonoBehaviour
     public float Rotate;
     public float Timer;
     public Image Button;
-    //public Transform Door;
     public Door door;
     public ObjectiveManager objectiveManager;
     public AudioSource MetalDoorOpen;
@@ -34,8 +33,10 @@ public class OpenKeyDoor : MonoBehaviour
                         MetalDoorOpen.Play();
                         keyCount--;
                         door.Interact();
-                        //Door.Rotate(new Vector3(0, Rotate, 0));
-                        objectiveManager.SwitchObjectiveTo(4);
+                        if (gameObject.name == "CanvasGoldKey")
+                        {
+                            objectiveManager.SwitchObjectiveTo(4);
+                        }
                         Destroy(gameObject);
                     }
                     else

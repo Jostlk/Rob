@@ -6,7 +6,7 @@ public class FillAmount : MonoBehaviour
 {
     public int _playerNoticedCount = 0;
     public DetectionSystem _detectionSystem;
-    void Update()
+    private void Update()
     {
         if (_playerNoticedCount > 0)
         {
